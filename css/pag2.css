@@ -8,7 +8,7 @@ html {
     width: 100%;
     height: 80%;
     background-color: #d9d9d9; 
-     text-decoration:none;
+    text-decoration:none;
 }
 
     h1{
@@ -36,10 +36,17 @@ html {
         display: inline-block;
         
     }
-    .emp_img{
+   
+        p { font-size: 15px;
+            font-family: "Patrick Hand";
+            margin-left: 80px}
+
+        p2{
+        font-size: 15px;
+        font-family: "Patrick Hand";
         display: flex;
         justify-content: right;
-        margin-left: 1100px;
+        margin-right: 80px;
     }
     .empreendedorismo {
         background-color: #d9d9d9;
@@ -61,9 +68,6 @@ html {
         margin-right: 20px;
     }    
     header .botao-home:hover{
-        cursor: pointer;
-    }
-    header .botao_menu:hover{
         cursor: pointer;
     }
 
@@ -121,14 +125,16 @@ html {
     background-color: #B5CAA1;
     height: 40px;
     width: 600px;
-    display: flex;
-    justify-content: center;
-    margin-left: 700px;
-    margin-right: 300px;
-    /*margin-top: 490px;*/
     font-size: 20px;
     font-family: "Patrick Hand";
     border: 0;  
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%) ;
+  }
+  .botao_menu:hover{
+    cursor:pointer;
   }
   .plas{
     justify-items: center;

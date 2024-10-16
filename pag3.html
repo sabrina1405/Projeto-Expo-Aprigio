@@ -3,121 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONTE YOUNG SERIF - TITULOS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+<!-- FONTE PATRICK HAND - SUBTITULOS -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-    <title>Empreendedorismo Sustentável</title>
+    
+<link rel="stylesheet" href="css/pag3.css">
+
+<title>Empreendedorismo Sustentável</title>
 </head>
 <body>
     <main>
         <header>
-            <div class="botao-home">
-                <img src="imagens/botao-home.png" width="20px"; height="20px">
-            </div>
+            <div class="botao-home"><a href="index.html"><img src="imagens/botao-home.png" width="20px"; height="20px"></a></div>
     
-            <div class="botao_menu">
+            <div class="botao_menu" onclick="exibir()">
                 <img src="imagens/menu-aberto.png"width="20px"; height="20px"> 
             </div>
         </header>
-        <aside> <ul> 
+        <aside id="aside"> <ul> 
             <li><a href="index.html">Pagína inicial</a></li>
             <li><a href="#emp">Empreendedorismo</a></li>
             <li><a href="#sus">Sustentabilidade</a></li>
             <li><a href="pag3.html">Empreendedorismo Sustentável</a></li>
-            <li><a href=""></a>Dicas Para Sua Empresa</li>
+            <li><a href="pag4.html">Dicas Para Sua Empresa</a></li>
             <li><a href="index.htlm">Redes Sociais</a></li> 
-           <!--  /*FAZER DIV DAS REDES SOCIAIS*/ -->
         </ul>
     
         </aside>
-
-        <h1>O QUE É?</h1>
-        <p></p>
-        <h2>COMO FUNCIONA?</h2>
-        <p></p>
-        <h3>EMPRESAS QUE REALIZAM:</h3>
-        <p></p>
-        <button class="botao_pagina3"> ACHOU INTERESSANTE? CLIQUE AQUI PARA VOCÊ ADMINISTRADOR RECEBER ALGUMAS DICAS PARA USAR EM SEU NEGÓCIO!</button>
+        <div id="colunastext">
+            <h1>O QUE É?</h1>
+            <p></p>
+            <h2>COMO FUNCIONA?</h2>
+            <p></p>
+            <h3>EMPRESAS QUE REALIZAM:</h3>
+            <p></p>
+            <p></p>
+        </div>
+        <button class="botao_pagina3"><a href="pag4.html">ACHOU INTERESSANTE? CLIQUE AQUI PARA VOCÊ ADMINISTRADOR RECEBER ALGUMAS DICAS PARA USAR EM SEU NEGÓCIO!</a> </button>
        
         <p></p></main>
-    
-        <style>
-            *{
-                margin:0;
-                padding: 0;
-            }   
-           h1{
-            font-size: 20px;
-            font-family: "young serif";
-            display: flex;
-            justify-content: left;
-            margin-left: 40px;
-           }
-           h2{
-            font-size: 20px;
-            font-family: "young serif";
-            display: flex;
-            justify-content: left;
-            margin-left: 800px;}
-            h3{
-            font-size: 20px;
-            font-family: "young serif";
-            display: flex;
-            justify-content: right;
-            margin-right: 40px;}
-            .botao_pagina3:hover{
-                cursor: pointer;
-            }
-           .botao_pagina3{
-            width: 600px;
-            height: 40px;
-            background-color: #C9A273;
-            border: 0;
-            border-radius: 10px;
-            margin-top: 600px;
-            margin-left: 600px;
-            justify-items: center;
-        }
-            header {
-            background-color: #598B27;
-            height: 70px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 0 100px;
-    }
-            header .botao-home:hover{
-                cursor: pointer;
-            }
-
-            header .botao_menu:hover{
-            cursor: pointer;
-    }
-            header aside{
-            display: none;
-    }
-    aside{
-        width: 100%;
-        height: 160px;
-        background-color: #598B27;
-        text-align: right;
-        
-    }
-    a{
-        text-decoration: none;
-        color: black;
-    }
-
-    li{
-        padding-right: 117px;
-        font-family: "Patrick Hand";
-        font-size: 20px;
-    }
-    </style>
-            
-        
+            <script src="javascript/pag3.js"></script>
 </body>
 </html>

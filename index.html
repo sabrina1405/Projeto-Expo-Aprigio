@@ -7,13 +7,12 @@
     <link rel="stylesheet" href="/css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap"
-        rel="stylesheet">
+    <!-- FONTE NEUTON - TITULO SITE -->
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
-        rel="stylesheet">
+    <!-- FONTE TAJAWAL - BOTÃO PRINCIPAL -->
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"  rel="stylesheet">
         
 
     <title>Empreendedorismo Sustentável</title>
@@ -21,7 +20,7 @@
 </head>
 
 <body>
-
+<!-- Página e Texto Principal -->
     <main>
 
 
@@ -35,10 +34,12 @@
                     <br> sobre sustentabilidade no
                     <br> ramo do empreendedorismo?
                 </p>
+                <!-- Botão de Redirecionamento -->
                 <a href="/pag2.html"><button>Clique aqui!</button></a>
 
             </div>
         </div>
+        <!-- DIV REDES SOCIAIS -->
                 <div class="redes">
                     <ul>
                     <li><a href="https://www.instagram.com/etecaprigiogonzagaoficial/"target="_blank">Instagram</a> </li>
@@ -47,12 +48,12 @@
                     <li><a href="https://etecaprigio.cps.sp.gov.br/"target="_blank">Pagina Oficial</a></li>
                     </ul>
                     <ul id="coluna2">
-                        <li id="li2">Sobre o Projeto</li>
+                        <li id="li2">Sobre o Projeto:</li>
                         <li><p1>O projeto foi criado com o intuito de informar e disponibilizar dicas de como empreendedores podem aplicar soluções sustentaveis em seu negócio. </p>
                         </li>
                     </ul>
                 </div>
-                <!--  /*FAZER DIV DAS REDES SOCIAIS*/ -->
+               
     </main>
     
     <style>
@@ -65,12 +66,14 @@
             font-family: "neuton";
             color: white;
             font-size: 50px;
+            margin-top: 20px;
         }
 
         p {
             font-family: "tajawal";
             color: white;
             font-size: 30px;
+            margin-top: 80px;
         }
 
         .principal {
@@ -98,7 +101,6 @@
         html {
             width: 100%;
             height: 100%;
-           
             align-items: center;
             background: url(/imagens/paginainicial.jpeg) no-repeat center;
             background-size: cover;
@@ -142,21 +144,28 @@
             text-decoration: none;
             color:black;
         }
-        .coluna2
+        #coluna2
         { 
-            list-style: none;
+            color: white;
             display: flex;
-            margin-left: 800px;
-            justify-content: left;
+            position: absolute;
+            right: 200px;
+            list-style: none;
+            left: 300px;
+            justify-content: center;
         }
         p1{
             /* padding-left: 500px; */
             font-size: 18px;
             display: flex;
-            justify-items: right;
+            position: absolute;
+            right: 70px;
+            left: 400px;
+            top: 100%;
             font-family: "Patrick Hand";
             width: 500px;;
             color: black;
+            
         }
     </style>
 
