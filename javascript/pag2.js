@@ -14,5 +14,4 @@ function exibir() {
         barra.style.display = 'none';
         barra.style.transition = "1s";
     }
-    return;
 }
