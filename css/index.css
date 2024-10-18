@@ -37,7 +37,7 @@ p {
 
 .fundo_principal {
    
-    width: 100%;
+    width: 110%;
     height: 50vw;
     background-image: url(../imagens/paginainicial.jpg) ;
     background-size: cover;
