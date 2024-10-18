@@ -3,6 +3,12 @@
     padding: 0
 }
 
+html {
+
+background-image: url(../imagens/paginainicial.jpeg);
+    
+}
+
 
 h1 {
     font-family: "neuton";
