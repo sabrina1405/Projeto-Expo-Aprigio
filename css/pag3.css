@@ -25,10 +25,10 @@ h4, h5, h6, h7{
     background-color: #C9A273;
     border: 0;
     border-radius: 10px;
-    position: absolute;
-    top: 120%;
-    left: 50%;
-    transform: translate(-50%);}  
+   justify-content: center;
+   margin-left: 450px;
+   margin-top: 80px;
+}  
 
     header {
     background-color: #598B27;
