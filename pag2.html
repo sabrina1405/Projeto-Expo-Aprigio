@@ -12,7 +12,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Playwrite+US+Modern:wght@100..400&family=Tajawal:wght@200;300;400;500;700;800;900&family=Young+Serif&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="/css/pag2.css">
+   
     <title>Empreendedorismo Sustentável</title>
 </head>
 
@@ -20,75 +22,114 @@
 
 
     <header>
-        <div class="botao-home"><a href="index.html"><img src="imagens/botao-home.png" width="20px"; height="20px"></a></div>
-
-        <div class="botao_menu" onclick="exibir()">
-            <img src="imagens/menu-aberto.png"width="20px"; height="20px"> 
+        <div class="botao-home"><a href="index.html"><img src="imagens/botao-home.png" width="20px" ; height="20px"></a>
         </div>
 
-        
+        <div class="botao_menu" onclick="exibir()">
+            <img src="imagens/menu-aberto.png" width="20px" ; height="20px">
+        </div>
+
+
     </header>
-    
-        <aside id="aside">
-        <ul><li><a href="index.html">Pagína inicial</a></li>
-        <li><a href="#emp">Empreendedorismo</a></li>
-        <li><a href="#sus">Sustentabilidade</a></li>
-        <li><a href="pag3.html">Empreendedorismo Sustentável</a></li>
-        <li><a href="pag4.html">Dicas Para Sua Empresa</a></li>
-        <li><a href="index.htlm">Redes Sociais</a></li></ul>
-         </aside>
+
+    <aside id="aside">
+        <ul>
+            <li><a href="index.html">Pagína inicial</a></li>
+            <li><a href="#emp">Empreendedorismo</a></li>
+            <li><a href="#sus">Sustentabilidade</a></li>
+            <li><a href="pag3.html">Empreendedorismo Sustentável</a></li>
+            <li><a href="pag4.html">Dicas Para Sua Empresa</a></li>
+            <li><a href="index.htlm">Redes Sociais</a></li>
+        </ul>
+    </aside>
 
 
 
-    <div class="empreendedorismo" id="emp">
+    <div class="empreendedorismo flex delimitador" id="emp">
 
-        <div>
+        <div class="flex-content">
             <h1>
                 Empreendedorismo
             </h1>
-            <br>
-        </div>
-        <div class="texto_emp">
-            <h2>O QUE É?
-            </h2>
-            <br>
-            <p>É o processo de identificar oportunidades de negócios, criar soluções inovadoras e assumir riscos para desenvolver um novo negócio, tem objetivo de gerar valor econômico, social ou cultural. O empreendedor, responsável por esse processo, utiliza recursos como capital (ativos financeiros ou não), mão de obra e tecnologia, para implementar suas ideias e transformar essas oportunidades em realidades de mercado.</p>
-            <br>
-            <h3>
-                DADOS NO BRASIL
-            </h3>
-            <br>
-            <p></p>
-            <br>
-        </div>
-        <img class="emp_img"
-        src="imagens/empreendedorismo.jpg" width="500px" ; height="300px" ;>
-    </div>
-    <div class="sustentabilidade" id="sus">
 
-        <h4>Sustentabilidade</h4>
-            <br>
-        <h5>O QUE É?</h5>
-        <p class="p2" id="p2">O conceito de sustentabilidade surgiu na Conferência das Nações Unidas sobre o Meio Ambiente Humano, em Estocolmo, na Suécia, em 1972.
-        <br>A conferência chamou a atenção para a poluição e a degradação ambiental, e foi a primeira do tipo realizada pela ONU.
-        <br>
-        É o ato de atender as necessidades do presente sem comprometer que as necessidades das gerações futuras, baseia-se também no equilíbrio da exploração dos recursos naturais, buscando preservá-los. 
-        <br>
-        "sustentabilidade" vem do latim sustentare, que significa sustentar, conservar, apoiar, cuidar, defender ou favorecer.</p>
-        <h6>PILARES DA SUSTENTABILIDADE</h6>
-        <br>
-        <p class="p2" id="p2">Os pilares principais da Sustentabilidade são três: Ambiente, econômia e sociedade.
-        <br> No aspecto ambiental, busca-se a preservação dos recursos naturais e a redução do impacto ecológico.
-        <br>Economicamente, visa-se um crescimento econômico equilibrado.<br>
-        Socialmente, promove-se a equidade e a melhoria da qualidade de vida.</p>
-        <img class="plas" src="imagens/reciclagem.jpeg" width="300px"; height="400px" >
-        <br>
-        <a href="/pag3.html"><button class= "botao_pagina2" id="botao_pagina2">E o Empreendedorismo Sustentável? O que ele é?</button></a>
-       
+            <div class="texto_emp">
+                <h2>O QUE É?
+                </h2>
+
+                <p>É o processo de identificar oportunidades de negócios, criar soluções inovadoras e assumir riscos
+                    para desenvolver um novo negócio, tem objetivo de gerar valor econômico, social ou cultural. O
+                    empreendedor, responsável por esse processo, utiliza recursos como capital (ativos financeiros ou
+                    não), mão de obra e tecnologia, para implementar suas ideias e transformar essas oportunidades em
+                    realidades de mercado.</p>
+
+                <h3>
+                    DADOS NO BRASIL
+                </h3>
+
+                <p></p>
+
+            </div>
+
+        </div>
+
+
+        <div class="flex-content">
+            <img class="emp_img" src="imagens/empreendedorismo.jpg" width="500px" ; height="300px" ;>
+        </div>
+
+
+    </div>
+
+
+    <div class="sustentabilidade flex" id="sus">
+
+
+        <div class="delimitador">
+            <div>
+                <h4>Sustentabilidade</h4>
+                <br>
+                <h5>O QUE É?</h5>
+    
+                <p class="p2">O conceito de sustentabilidade surgiu na Conferência das Nações Unidas sobre o Meio Ambiente
+                    Humano, em Estocolmo, na Suécia, em 1972.
+                    <br>A conferência chamou a atenção para a poluição e a degradação ambiental, e foi a primeira do tipo
+                    realizada pela ONU.
+                    <br>
+                    É o ato de atender as necessidades do presente sem comprometer que as necessidades das gerações futuras,
+                    baseia-se também no equilíbrio da exploração dos recursos naturais, buscando preservá-los.
+                    <br>
+                    "sustentabilidade" vem do latim sustentare, que significa sustentar, conservar, apoiar, cuidar, defender
+                    ou
+                    favorecer.
+                </p>
+                <h6>PILARES DA SUSTENTABILIDADE</h6>
+                <br>
+    
+                <p class="p2">Os pilares principais da Sustentabilidade são três: Ambiente, econômia e sociedade.
+                    <br> No aspecto ambiental, busca-se a preservação dos recursos naturais e a redução do impacto
+                    ecológico.
+                    <br>Economicamente, visa-se um crescimento econômico equilibrado.<br>
+                    Socialmente, promove-se a equidade e a melhoria da qualidade de vida.
+                </p>
+
+                <div class="btn">
+
+                    <button class="botao_pagina2" id="botao_pagina2">
+                        <a href="/pag3.html">E o Empreendedorismo Sustentável? O que ele é? </a>
+                    </button>
+                </div>
+            </div>
+
+            <div>
+                <img class="plas" src="imagens/reciclagem.jpeg" width="300px" ; height="400px">
+            </div>
+
+        </div>
+
     </div>
 
     <script src="javascript/pag2.js"></script>
-   
+
 </body>
 
 </html>

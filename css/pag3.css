@@ -9,6 +9,11 @@ display: flex;
 justify-content: center;
 margin-right: 100px;
 }
+h4, h5, h6, h7{
+    font-size: 15px;
+    font-family: "Patrick Hand";
+    margin-top: 10px;
+}
     .botao-home:hover { cursor: pointer;}
 
     .botao_pagina3:hover
@@ -56,10 +61,30 @@ padding-right: 117px;
 font-family: "Patrick Hand";
 font-size: 20px;
 }
-/* #colunastext{
+#colunastextopag3{
     width: 100%;
     column-gap: 100px;
     justify-content:center ;
-    column-count: 3;
-} */
-   
+    column-count:3;
+    display: flex;
+}
+.coluna1_3 p{
+    font-family: "Tajawal";
+    font-size: 20px;
+    margin-left: 20px;
+    width: 300px;
+    margin-top: 20px;
+}
+.coluna2_3{
+    font-family: "Tajawal";
+    font-size: 20px;
+    width: 250px;
+    margin-top: 20px;
+}
+.coluna3_3{
+    font-family: "Tajawal";
+    font-size: 16px; 
+    margin-right: 80px;
+    width: 400px;
+    margin-top: 20px;
+}

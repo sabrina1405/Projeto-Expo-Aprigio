@@ -51,6 +51,20 @@ html {
         height: 500px;
     }
 
+
+    .delimitador{
+        max-width: 1400px;
+        margin: 0 auto;
+        
+    }
+
+    .flex{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
     header {
         background-color: #598B27;
         height: 70px;
@@ -125,7 +139,7 @@ html {
     .plas{
         position: absolute;
         top: 1000px;
-        left: 15%;
+        left: 18.5%;
         transform: translate(-50%, -50%);
        }
     
@@ -134,19 +148,22 @@ html {
         cursor: pointer;
     }
   .botao_pagina2{
+    text-align: center;
     background-color: #B5CAA1;
     height: 40px;
     width: 600px;
     font-size: 20px;
     font-family: "Patrick Hand";
     border: 0;  
-    position: absolute;
-    top: 180%;
-    left: 50%;
-    transform: translate(-50%) ;
+
   }
   .botao_menu:hover{
     cursor:pointer;
   }
 
- 
+ .btn{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+ }
