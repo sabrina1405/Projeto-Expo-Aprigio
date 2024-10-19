@@ -98,6 +98,7 @@ body, html {
     #sus{
         background-color: #B5CAA1;
         display: flex;
+        width: 100%;
         height: 800px;
         justify-content: space-between;
         align-items: center;
@@ -165,10 +166,4 @@ body, html {
     margin-top: 100px;
     margin-bottom: 10px;
  }
-/* Responsividade */
-@media (max-width: 768px) {
-    /* Para telas menores, ajusta o layout para melhor visualização */
-    #sus, #emp {
-        flex-direction: column;
-        align-items: center;
-        height: auto}
+
