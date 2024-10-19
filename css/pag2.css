@@ -98,7 +98,7 @@ body, html {
     #sus{
         background-color: #B5CAA1;
         display: flex;
-        width: 100%;
+        width: 1000px;
         height: 800px;
         justify-content: space-between;
         align-items: center;
