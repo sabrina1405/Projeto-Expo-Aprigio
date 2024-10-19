@@ -71,7 +71,6 @@ button:hover {
     background-color: #598B27;
     font-size: 20px;
     font-family: "Patrick Hand";
-    height: 120px;
     width: 100%;
     display: flex;
 
@@ -94,27 +93,26 @@ a {
     color: black;
 }
 
-#coluna2 {
-    color: white;
+
+
+.redes{
     display: flex;
-    position: absolute;
-    right: 200px;
-    list-style: none;
-    left: 300px;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+
 }
 
-p1 {
-    /* padding-left: 500px; */
-    font-size: 18px;
-    display: flex;
-    position: absolute;
-    right: 70px;
-    left: 400px;
-    top: 100%;
-    font-family: "Patrick Hand";
-    width: 700px;
-    ;
-    color: black;
+h2{
+    font-family: "neuton";
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
 
+.redes p{
+    font-size: 18px;
+    font-family: "Patrick Hand";
+    color: black;
+    max-width: 600px;
+    margin:0;
 }
